@@ -1,10 +1,10 @@
 <?php
 $values = $hook->getValues();
 
-// Получаем название формы
+// Request form name
 $formName = $modx->getOption('formName', $formit->config, 'form-'.$modx->resource->get('id'));
 
-// Данные с формы
+// Request form data
 $name = $values['name'];
 $phone = $values['phone'];
 
