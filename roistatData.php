@@ -10,7 +10,7 @@ $phone = $values['phone'];
 
 $roistatData = array(
     'roistat' => isset($_COOKIE['roistat_visit']) ? $_COOKIE['roistat_visit'] : null,
-    'key'     => 'key', // Ключ API Roistat
+    'key'     => 'key', // API key Roistat
     'title'   => $name . ' (' . $formName . ')',
     'name'    => $name,
     'email'   => '',
